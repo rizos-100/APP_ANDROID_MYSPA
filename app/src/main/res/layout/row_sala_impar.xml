@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtvNombreSalaImpar"
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/txtvDescripcionSalaImpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnReservarSalaImpar"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/menu_reservacion"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgvFotoSala"
+        android:layout_width="226dp"
+        android:layout_height="117dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+</LinearLayout>

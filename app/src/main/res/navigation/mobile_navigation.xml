@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.utl.rizosdb.login.ui.FragmentInformationUsuario"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_informacion_usuario" />
+
+    <fragment
+        android:id="@+id/nav_sucursal"
+        android:name="com.utl.rizosdb.login.ui.FragmentSucursal"
+        android:label="@string/menu_sucursal"
+        tools:layout="@layout/fragment_sucursal" />
+
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.utl.rizosdb.login.ui.FragmentProducto"
+        android:label="@string/menu_tratamiento"
+        tools:layout="@layout/fragment_producto" />
+
+    <fragment
+        android:id="@+id/nav_sala"
+        android:name="com.utl.rizosdb.login.ui.FragmentSala"
+        android:label="@string/menu_sucursal"
+        tools:layout="@layout/fragment_sala" />
+
+    <fragment
+        android:id="@+id/nav_tratamiento"
+        android:name="com.utl.rizosdb.login.ui.FragmentTratamiento"
+        android:label="@string/menu_sala"
+        tools:layout="@layout/fragment_tratamiento" />
+    <fragment
+        android:id="@+id/nav_reservacion"
+        android:name="com.utl.rizosdb.login.ui.FragmentReservacion"
+        android:label="@string/menu_reservacion"
+        tools:layout="@layout/fragment_reservacion" />
+
+</navigation>
